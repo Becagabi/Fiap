@@ -1,0 +1,13 @@
+$ cat cp1-v2.sh
+#1/usr/bin/bash
+ 
+ 
+echo "SO: $OS"
+echo "CPU: $ Intel(R) Core(TM) i3-7100 CPU @ 3.90GHz"
+echo "Espaço em disco: $(df -h)"
+echo "Memoria total: "
+ 
+echo "Nome de usuario: $(hostname) "
+echo "diretorio home: $(users)"
+echo "diretorio atual: $(pwd) "
+echo "usuario logados: $(whoami) "
