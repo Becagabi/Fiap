@@ -1,0 +1,38 @@
+#!/usr/bin/bash
+
+echo "Usuario : " $(whoami)
+
+echo "path atual" $(pwd)
+
+echo "hostname: " $(hostname)
+
+echo "SO: " $OS
+
+ like 1
+ 
+#!/usr/bin/bash
+ 
+mkdir gabriela
+
+mkdir gabriela/defesa_cibernetica
+ 
+mkdir gabriela/defesa_cibernetica/linux
+
+mkdir gabriela/defesa_cibernetica/redes
+
+mkdir gabriela/defesa_cibernetica/hacker_mindset
+ 
+touch gabriela/defesa_cibernetica/linux/notas.txt
+
+touch gabriela/defesa_cibernetica/redes/notas2.txt
+
+touch gabriela/defesa_cibernetica/hacker_mindset/notas3.txt
+ 
+echo "pro pardal 1" > gabriela/defesa_cibernetica/linux/notas.txt
+
+echo "pro pardal 2" > gabriela/defesa_cibernetica/redes/notas2.txt
+
+echo "pro pardal 3" > gabriela/defesa_cibernetica/hacker_mindset/notas3.txt
+ 
+
+ 
